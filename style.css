@@ -1,0 +1,85 @@
+/* Pengaturan Dasar */
+body {
+    background-color: #f4f4f9; /* Warna abu-abu terang */
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s; /* Efek transisi saat ganti dark mode */
+}
+
+/* --- TEMA GELAP (Dark Mode) --- */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+/* --- BAGIAN PROFIL --- */
+.profil {
+    margin-top: 20px;
+}
+
+.foto-profil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Membuat foto menjadi bulat sempurna */
+    object-fit: cover; /* Agar foto tidak peyang */
+    border: 4px solid #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profil h1 {
+    margin: 15px 0 5px 0;
+    font-size: 24px;
+}
+
+.profil p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+body.dark-mode .profil p {
+    color: #bbb;
+}
+
+/* --- BAGIAN TOMBOL LINK --- */
+.kumpulan-link {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column; /* Menyusun tombol berderet ke bawah */
+    align-items: center;
+    gap: 15px; /* Jarak antar tombol */
+    padding-bottom: 50px;
+}
+
+.tombol-link {
+    display: block;
+    width: 90%;
+    max-width: 400px; /* Maksimal lebar tombol agar tidak terlalu panjang di laptop */
+    background-color: #ffffff;
+    color: #333;
+    text-decoration: none; /* Menghilangkan garis bawah bawaan link */
+    padding: 15px;
+    border-radius: 30px; /* Ujung tombol membulat seperti pil */
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Bayangan lembut */
+    transition: 0.2s; /* Transisi animasi saat mouse lewat */
+}
+
+/* Efek saat kursor diarahkan ke tombol */
+.tombol-link:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02); /* Tombol sedikit membesar */
+}
+
+/* Warna tombol saat Dark Mode aktif */
+body.dark-mode .tombol-link {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .tombol-link:hover {
+    background-color: #444;
+}

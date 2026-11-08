@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Penting agar tampilannya pas di layar HP -->
+    <title>My Bio Link</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Jam Digital dan Tombol Dark Mode (Kita taruh di atas) -->
+    <div style="text-align: right; padding: 15px;">
+        <span id="jam" style="font-weight: bold; margin-right: 15px;"></span>
+        <button onclick="toggleDarkMode()" style="padding: 5px 10px; border-radius: 5px; cursor: pointer;">Tema Gelap/Terang</button>
+    </div>
+
+    <!-- Bagian Profil -->
+    <div class="profil">
+        <!-- Pastikan file foto.jpg ada di foldermu -->
+        <img src="bro1.jpeg" alt="Foto Profil" class="foto-profil">
+        <h1>Rizky Putra Pratama</h1>
+        <p>Mahasiswa | Suka rebahan & berkelana</p>
+    </div>
+
+    <!-- Bagian Tombol Link -->
+    <div class="kumpulan-link">
+        <!-- Ganti tanda # dengan link Instagram dan TikTok kamu -->
+        <a href="https://www.instagram.com/rizkyputp_?dlrf=MTlpNjFzZnVzOWptbQ%3D%3D" target="_blank" class="tombol-link">📸 Instagram</a>
+        <a href="tiktok.com/@kyzeee06" target="_blank" class="tombol-link">🎵 TikTok</a>
+        <a href="https://open.spotify.com/user/31ztmst5vxpanbgp7747k6yhvv7y?si=BiV12PeVQyifU4CYvtYH9Q&utm_source=copy-link" target="_blank" class="tombol-link">🎧 Spotify</a>
+        <a href="#" target="_blank" class="tombol-link">🎓 Portofolio</a>
+        <a href="https://saweria.co/kyzeee01" target="_blank" class="tombol-link">☕ Traktir Kopi (Saweria)</a>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
