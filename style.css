@@ -92,13 +92,13 @@ body.dark-mode .tombol-link:hover {
 }
 
 .foto-persegi-panjang {
-    width: 90%;
-    max-width: 300px;         /* Ukuran lebar disamakan agar mirip tombol/ikon di atasnya */
-    height: 160px;            /* Tinggi kotak persegi panjang */
+    width: 90%;                /* Mengikuti persentase lebar tombol */
+    max-width: 400px;          /* Menyamakan persis dengan lebar maksimal tombol link/Instagram kamu */
+    height: 160px;             
     object-fit: cover;        
-    object-position: bottom;  /* <--- Ini agar fokus gambar ditarik dan nampak dari bawah */
-    border-radius: 16px;      /* <--- Membuat sudut melengkung halus menyerupai kotak IG/TikTok */
+    object-position: bottom;   
+    border-radius: 30px;       /* Radius lengkungan sudut disamakan jadi 30px agar mirip tombol pill */
     display: block;
-    margin: 15px auto 0 auto; /* Jarak atas otomatis agar pas di tengah */
+    margin: 15px auto 0 auto;  
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
