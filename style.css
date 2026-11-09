@@ -85,13 +85,13 @@ body.dark-mode .tombol-link:hover {
 }
 
 .foto-persegi-panjang {
-    width: 90%;
-    max-width: 400px;         
-    height: 160px;            
-    object-fit: cover;        
-    object-position: top;     /* <--- Ubah dari bottom menjadi top agar kepala/atas foto terlihat */
-    border-radius: 30px;      
+    width: 90%;                /* Lebar mengikuti layar/tombol */
+    max-width: 400px;          /* Lebar maksimal disamakan dengan tombol */
+    height: 220px;             /* Tinggi kotak */
+    object-fit: contain;       /* <--- KUNCI UTAMA: Agar foto tampil utuh dan tidak pipih/terpotong */
+    background-color: #111;    /* Warna latar di samping foto jika bentuk aslinya kotak/persegi */
+    border-radius: 20px;       /* Sudut lengkung kotak */
     display: block;
-    margin: 15px auto 0 auto;  
+    margin: 15px auto 0 auto;  /* Jarak atas/margin agar rapi di tengah */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
