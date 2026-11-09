@@ -93,9 +93,11 @@ body.dark-mode .tombol-link:hover {
 
 .foto-persegi-panjang {
     width: 100%;
-    height: 200px; /* Tinggi persegi panjang, bisa diubah sesuai selera (misal 220px) */
-    object-fit: cover; /* Agar foto mengisi penuh tanpa gepeng */
-    border-radius: 12px; /* Membuat sudut-sudutnya sedikit melengkung halus */
+    max-width: 250px; /* Batasi lebar maksimalnya agar tidak terlalu melebar */
+    height: 140px;    /* Ubah tinggi foto jadi lebih kecil (bisa diatur sesuai selera) */
+    object-fit: cover; /* Agar foto tetap rapi dan tidak gepeng */
+    border-radius: 12px; /* Membuat sudutnya melengkung halus */
     display: block;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Bayangan tipis agar elegan */
+    margin: 0 auto;    /* Posisi otomatis di tengah */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
