@@ -92,12 +92,13 @@ body.dark-mode .tombol-link:hover {
 }
 
 .foto-persegi-panjang {
-    width: 100%;
-    max-width: 250px; /* Batasi lebar maksimalnya agar tidak terlalu melebar */
-    height: 140px;    /* Ubah tinggi foto jadi lebih kecil (bisa diatur sesuai selera) */
-    object-fit: cover; /* Agar foto tetap rapi dan tidak gepeng */
-    border-radius: 12px; /* Membuat sudutnya melengkung halus */
+    width: 90%;
+    max-width: 300px;         /* Ukuran lebar disamakan agar mirip tombol/ikon di atasnya */
+    height: 160px;            /* Tinggi kotak persegi panjang */
+    object-fit: cover;        
+    object-position: bottom;  /* <--- Ini agar fokus gambar ditarik dan nampak dari bawah */
+    border-radius: 16px;      /* <--- Membuat sudut melengkung halus menyerupai kotak IG/TikTok */
     display: block;
-    margin: 0 auto;    /* Posisi otomatis di tengah */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 15px auto 0 auto; /* Jarak atas otomatis agar pas di tengah */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
