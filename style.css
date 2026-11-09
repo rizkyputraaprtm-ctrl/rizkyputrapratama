@@ -84,13 +84,6 @@ body.dark-mode .tombol-link:hover {
     background-color: #444;
 }
 
-/* Styling khusus untuk foto kedua agar berbentuk persegi panjang */
-.container-foto-panjang {
-    width: 90%;
-    max-width: 350px; /* Lebar maksimal kotak foto */
-    margin: 20px auto 0 auto; /* Jarak atas otomatis agar rapi di tengah */
-}
-
 .foto-persegi-panjang {
     width: 90%;
     max-width: 400px;         
