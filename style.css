@@ -83,19 +83,19 @@ body.dark-mode .tombol-link {
 body.dark-mode .tombol-link:hover {
     background-color: #444;
 }
-/* Styling untuk kotak foto tambahan */
-.card-foto-tambahan {
-    background-color: #ffffff; /* Warna latar dalam kotak (putih) */
-    border-radius: 12px;       /* Membuat ujung kotak melengkung */
-    padding: 10px;             /* Jarak antara foto dan tepi kotak */
-    margin-top: 20px;          /* Jarak jarak dari teks "Mahasiswa" ke foto */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Efek bayangan lembut */
+
+/* Styling khusus untuk foto kedua agar berbentuk persegi panjang */
+.container-foto-panjang {
+    width: 90%;
+    max-width: 350px; /* Lebar maksimal kotak foto */
+    margin: 20px auto 0 auto; /* Jarak atas otomatis agar rapi di tengah */
 }
 
-/* Styling untuk gambar di dalam kotak */
-.gambar-konten {
-    width: 100%;               /* Lebar gambar memenuhi kotak */
-    height: auto;              /* Menyesuaikan tinggi secara otomatis */
-    border-radius: 8px;        /* Membuat sudut foto sedikit melengkung */
+.foto-persegi-panjang {
+    width: 100%;
+    height: 200px; /* Tinggi persegi panjang, bisa diubah sesuai selera (misal 220px) */
+    object-fit: cover; /* Agar foto mengisi penuh tanpa gepeng */
+    border-radius: 12px; /* Membuat sudut-sudutnya sedikit melengkung halus */
     display: block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Bayangan tipis agar elegan */
 }
