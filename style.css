@@ -92,12 +92,13 @@ body.dark-mode .tombol-link:hover {
 }
 
 .foto-persegi-panjang {
-    width: 100%;
-    max-width: 250px; /* Batasi lebar maksimalnya agar tidak terlalu melebar */
-    height: 140px;    /* Ubah tinggi foto jadi lebih kecil (bisa diatur sesuai selera) */
-    object-fit: cover; /* Agar foto tetap rapi dan tidak gepeng */
-    border-radius: 12px; /* Membuat sudutnya melengkung halus */
+    width: 90%;
+    max-width: 400px;         
+    height: 160px;            
+    object-fit: cover;        
+    object-position: top;     /* <--- Ubah dari bottom menjadi top agar kepala/atas foto terlihat */
+    border-radius: 30px;      
     display: block;
-    margin: 0 auto;    /* Posisi otomatis di tengah */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 15px auto 0 auto;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
