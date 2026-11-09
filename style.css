@@ -93,8 +93,8 @@ body.dark-mode .tombol-link:hover {
 
 .foto-persegi-panjang {
     width: 100%;
-    max-width: 250px; /* Batasi lebar maksimalnya agar tidak terlalu melebar */
-    height: 140px;    /* Ubah tinggi foto jadi lebih kecil (bisa diatur sesuai selera) */
+    max-width: 260px; /* Batasi lebar maksimalnya agar tidak terlalu melebar */
+    height: 155px;    /* Ubah tinggi foto jadi lebih kecil (bisa diatur sesuai selera) */
     object-fit: cover; /* Agar foto tetap rapi dan tidak gepeng */
     border-radius: 12px; /* Membuat sudutnya melengkung halus */
     display: block;
