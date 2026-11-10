@@ -95,3 +95,31 @@ body.dark-mode .tombol-link:hover {
     margin: 15px auto 0 auto;  /* Jarak atas/margin agar rapi di tengah */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
+
+/* Efek saat tombol di-hover / ditekan */
+.tombol-link {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tombol-link:hover {
+    transform: translateY(-3px); /* Tombol sedikit terangkat ke atas */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Efek bayangan makin halus */
+}
+
+/* Animasi halus saat web dibuka */
+body {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
