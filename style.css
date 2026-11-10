@@ -1,12 +1,27 @@
-/* Pengaturan Dasar */
+/* Pengaturan Dasar & Background Bergerak */
 body {
-    background-color: #f4f4f9; /* Warna abu-abu terang */
+    background: linear-gradient(-45deg, #f4f4f9, #e2e8f0, #cbd5e1, #94a3b8);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
     color: #333;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
-    transition: 0.3s; /* Efek transisi saat ganti dark mode */
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Pengaturan pergerakan animasi gradasinya */
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* --- TEMA GELAP (Dark Mode) --- */
