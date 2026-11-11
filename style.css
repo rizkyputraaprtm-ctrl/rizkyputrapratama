@@ -131,4 +131,25 @@ body {
     }
 }
 
+/* Efek Nyala Api pada Foto Profil */
+.foto-profil { /* Sesuaikan nama class atau ID foto profil kamu di HTML */
+    border-radius: 50%; /* Membuat foto jadi bulat sempurna */
+    border: 3px solid #ff7700; /* Garis tepi warna oranye api */
+    animation: efekApi 2s infinite alternate ease-in-out;
+}
+
+@keyframes efekApi {
+    0% {
+        box-shadow: 0 0 10px #ff3300, 0 0 20px #ff6600, inset 0 0 10px #ff3300;
+        border-color: #ff3300;
+    }
+    50% {
+        box-shadow: 0 0 20px #ff9900, 0 0 35px #ffcc00, inset 0 0 15px #ff9900;
+        border-color: #ff9900;
+    }
+    100% {
+        box-shadow: 0 0 10px #ff3300, 0 0 20px #ff6600, inset 0 0 10px #ff3300;
+        border-color: #ff3300;
+    }
+}
 
