@@ -132,3 +132,8 @@ body {
 }
 
 
+/* Pengaturan agar isi bio link berada di atas efek partikel */
+.container {
+    position: relative;
+    z-index: 1;
+}
