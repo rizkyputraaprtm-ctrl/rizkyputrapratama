@@ -1,9 +1,9 @@
 /* Pengaturan Dasar & Background Bergerak */
 body {
-    background: linear-gradient(-45deg, #f4f4f9, #e2e8f0, #cbd5e1, #94a3b8);
+    background: linear-gradient(-45deg, #09090b, #18181b, #27272a, #0f172a);
     background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
-    color: #333;
+    color: #f8fafc; /* Warna teks diubah jadi putih/terang agar kontras */
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
