@@ -3,13 +3,14 @@ body {
     background: linear-gradient(-45deg, #09090b, #18181b, #27272a, #0f172a);
     background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
-    color: #f8fafc; /* Warna teks diubah jadi putih/terang agar kontras */
+    color: #f0f0f0; /* Warna teks diubah jadi putih/terang agar kontras */
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
     transition: background 0.3s ease, color 0.3s ease;
 }
+
 
 /* Pengaturan pergerakan animasi gradasinya */
 @keyframes gradientBG {
