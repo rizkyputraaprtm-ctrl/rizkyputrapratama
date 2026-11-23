@@ -1,27 +1,3 @@
-// alert ('Error')
-
-// var usia = 30 //
-// const x = 2 // nilai tidak bisa diubah 
-// let y = 3 // ini nilai usia nya yg di eksekusi yg paling ahkir
-// console.log('heloo usia anada adalah' + usia)
-// null itu tidak bernilai
-
-// let nama = 'Rizky Putra Pratama' // integer
-// let usia = 20 // string number
-// let TinggiBadan = 180.5 // tipe double float
-// let BeratBadan
-// let Pacar = null 
-
-// alert (
-//     'nama saya ${nama} usia saya{uisa} tinngi badan saya ${TinggiBadan} status hubungan ${Pacar}'
-// )
-
-/// Contoh mengubah gambar lewat JavaScript
-// function gantiGambar() {
-//     let gambar = document.querySelector("img");
-//     gambar.src = "gambar_lain.jpg"; // Pastikan file baru ini juga ada di folder yang sama
-// }
-
 // // Fungsi untuk mengubah tema halaman
 // function toggleDarkMode() {
 //     let body = document.body;
